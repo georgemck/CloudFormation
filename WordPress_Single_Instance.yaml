@@ -361,9 +361,9 @@ Mappings:
       HVMG2: NOT_SUPPORTED
       PV64: ami-7d15ad11
     us-east-1:
-      HVM64: ami-60b6c60a
-      HVMG2: ami-e998ea83
-      PV64: ami-5fb8c835
+      HVM64: ami-0dc2d3e4c0f9ebd18
+      HVMG2: NOT_SUPPORTED
+      PV64: NOT_SUPPORTED
     us-west-1:
       HVM64: ami-d5ea86b5
       HVMG2: ami-943956f4
