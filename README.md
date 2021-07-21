@@ -13,23 +13,30 @@ Upgrading to PHP 7.2 on Amazon Linux
 php -v
 
 --stop APACHE and PHP services
+
 sudo service httpd stop
 
 --uninstall APACHE and PHP
+
 sudo yum remove httpd* php*
 
 --Get latest updates
+
 sudo yum update -y
 
 --install PHP 7.2
+
 sudo yum install php72
 
 --install MySQL driver for PHP 7.2
+
 sudo yum install php72-mysqlnd
  
 --Start APACHE web server
+
 sudo service httpd start
 
 --cleanup
+
 sudo yum clean all
 
