@@ -91,7 +91,7 @@ Mappings:
       Arch: NATHVM64
   AWSRegionArch2AMI:
     us-east-1:
-      HVM64: ami-08111162
+      HVM64: ami-60b6c60a
       HVMG2: NOT_SUPPORTED
       PV64: NOT_SUPPORTED
 Resources:
